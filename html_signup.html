@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Sign Up Form</title>
+      <style>
+        body
+        {
+          background-color: hsl(0, 4%, 5%);
+        }
+
+        h1
+        { 
+        color: rgb(221, 99, 24);
+        font-size: 50px;
+        text-align: center;
+        
+        }
+        .first
+        {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 600px;
+        background-color: rgba(129, 119, 122, 0.459);
+        }
+
+        input
+        {  
+        background-color:white ;
+        margin: 5px;
+        padding: 20px;
+        border: none;
+        border-radius: 25px;
+    
+        }
+
+        form
+        {
+        text-align: center;
+        }
+
+        .sub
+        {
+        background-color:rgb(221, 99, 24) ;
+        margin: 5px;
+        padding: 20px;
+        border: none;
+        border-radius: 25px; 
+        color: aliceblue;  
+        }
+
+        select
+        {
+        background-color:white ;
+        margin: 5px;
+        padding: 20px;
+        border: none;
+         border-radius: 25px;
+        }
+        label
+        {
+        color: white;
+        }
+      </style>
+
+  </head>
+  <body>
+   
+        <h1 >Sign Up!</h1>
+       <div class="first"> <form>
+        <br><br><br><br>
+            <label for="firstName">First Name</label><br>
+            <input type="text" name="firstName"  placeholder="First Name" required /><br>
+            <label for="lastName">Last Name</label><br>
+            <input type="text" name="lastName"  placeholder="Last Name" required /><br>
+            <label for="email">First Name</label><br>
+            <input type="text" name="email"  placeholder="Email" required /><br>
+            <label>Create Password</label><br>
+            <input type="password" placeholder="choose a strong password"/><br>
+            <label for="phoneNumber">Phone Number</label><br>
+            <input type="text" name="phoneNumber" c placeholder="Phone Number" required />
+            <br>
+            <label for="gender">Gender</label>
+            <select>
+              <option>male</option>
+              <option>female</option>
+              <option>other</option>
+            </select><br><br><br>
+            <input type="submit" name="submitButton" value="Sign Up" class="sub"><br>
+            <label><input type="checkbox" /> I agree to the terms and conditions.</label>
+        </form>
+    </div>
+  </body>
+</html>
